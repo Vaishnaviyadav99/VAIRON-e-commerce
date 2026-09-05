@@ -214,7 +214,7 @@ const products={
      29: {
         name:"VAIRON- Light Wash Denim Shorts ",
         price:"Rs. 1,859 /-",
-        image: "images/GENSshorts.jpg ",
+        image: "images/gensshorts.jpg ",
         description:" Classic light-wash denim shorts with a relaxed fit and clean five-pocket styling. Durable and versatile, these shorts pair effortlessly with tees or shirts for an easy, casual look perfect for warm-weather days.",
         category:"menshorts"
     },
@@ -222,7 +222,7 @@ const products={
      30: {
         name:"VAIRON- Retro Running Sneakers",
         price:"Rs. 3,859 /-",
-        image: "images/GENSshoe.jpg ",
+        image: "images/gensshoe.jpg ",
         description:"Silver-and-white retro-style sneakers featuring a chunky sole and mesh paneling for breathability. Combining a sporty aesthetic with everyday comfort, these sneakers are a versatile pick for both athletic wear and casual streetwear looks ",
         category:"menshoes"
     },
@@ -230,7 +230,7 @@ const products={
      31: {
         name:"VAIRON- Vintage Jersey #90 ",
         price:"Rs.1,859/-",
-        image: "images/GENStshirt.jpg ",
+        image: "images/genstshirt.jpg ",
         description:"A white and green varsity-style jersey featuring bold  numbering and a ribbed V-neck collar. With a relaxed, oversized fit, this jersey brings a retro sporty edge to any casual outfit. ",
         category:"jersey"
     },
@@ -254,7 +254,7 @@ const products={
      34: {
         name:"VAIRON- Tailored Grey Trousers ",
         price:"Rs. 2,859 /-",
-        image: "images/GENStrousers2.jpg ",
+        image: "images/genstrousers2.jpg ",
         description:"Sleek grey pleated trousers with a tailored, wide-leg cut. Combining comfort with a polished silhouette, these trousers transition easily from smart-casual daywear to elevated evening looks. ",
         category:"pant"
     },
@@ -262,7 +262,7 @@ const products={
      35: {
         name:"VAIRON- Palace Athletic Jacket  ",
         price:"Rs. 2,559 /-",
-        image: "images/GENSsport.jpg ",
+        image: "images/genssport.jpg ",
         description:"A bold navy-and-red varsity jacket featuring the  graphic across the chest. With a ribbed collar and cuffs, this jacket delivers a sporty, statement-making look perfect for streetwear styling ",
         category:"sportswear"
     },
@@ -270,7 +270,7 @@ const products={
      36: {
         name:"VAIRON- Relaxed Linen Shirt ",
         price:"Rs. 2,590 /-",
-        image: " images/GENScottshit.jpg",
+        image: " images/genscottshit.jpg",
         description:"A breezy olive-green linen shirt with a relaxed, open collar and rolled sleeves. The lightweight fabric offers effortless comfort, making it perfect for warm days when you want an easy, laid-back look with a touch of understated style ",
         category:"mentees"
     },
@@ -278,7 +278,7 @@ const products={
      37: {
         name:"VAIRON- Colourblock Windbreaker ",
         price:"Rs. 4,859 /-",
-        image: " images/GENSjackets.jpg",
+        image: " images/gensjackets.jpg",
         description:"A bold colourblock windbreaker in teal, brown, and cream tones with a full-zip front. The lightweight, wind-resistant fabric makes it ideal for active days, while the sporty silhouette adds a streetwear-inspired edge to any casual outfit. ",
         category:"jacket"
     },
@@ -286,7 +286,7 @@ const products={
      38: {
         name:"VAIRON- Limitless Graphic Polo ",
         price:"Rs. 2,389/-",
-        image: "images/GENSkurta.jpg ",
+        image: "images/genskurta.jpg ",
         description:"A crisp white polo featuring a bold Limitless script print and a contrasting brown collar. Paired with a tied brown sash detail, this polo brings a fresh, sporty-preppy vibe to casual streetwear looks.",
         category:"menshirt"
     },
@@ -294,7 +294,7 @@ const products={
      39: {
         name:"VAIRON- Relaxed Cream Henley ",
         price:"Rs. 1,599 /-",
-        image: "images/GENS2casual.jpg ",
+        image: "images/gens2casual.jpg ",
         description:"A soft cream henley shirt with a buttoned neckline and rolled-up sleeves. The relaxed, breathable fit makes it a comfortable everyday essential that pairs effortlessly with jeans or trousers for a clean, minimal look ",
         category:"mensplain"
     },
