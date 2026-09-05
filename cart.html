@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> VAIRON- Your Bag</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       
+
+        
+        <header class="header">
+            <a href="index.html" class="logo"><img src="images/VAIRON.jpeg" alt="VAIRON logo"></a>
+
+         <nav class="navbar">
+            <a href="index.html" class="active">HOME</a>
+            <a href="ladies.html">LADIES</a>
+            <a href="gens.html">GENS</a>
+            <a href="kids.html">KIDS</a>
+            <a href="beauty.html">BEAUTY</a>
+         </nav>
+        <div class="icons">
+            <i class="fa fa-bars" id="menu-btn"></i>
+            <i class="fa fa-search" id="search-btn"></i>
+            <a href="cart.html" class="bag-link">
+              <i class="fa fa-shopping-bag" id="shopping-bag-btn"></i>
+              <span id="cart-count" class="cart-badge">0</span>
+            </a>
+            
+        </div>
+       </header>
+
+       <section class="cart-page">
+        <h2>YOUR BAG</h2>
+        <div id="cart-items"></div>
+        <div id="cart-empty" style="display:none">
+            <p> Your bag is Empty</p>
+        </div>
+        <div id="cart-total-section">
+            <h3>total:<span id="cart-total"> rs. o/-</span></h3>
+            <button id="checkout-btn">PROCEED TO PAY</button>
+        </div>
+       </section>
+
+       <script src="script.js"></script>
+    </body>
+</html>

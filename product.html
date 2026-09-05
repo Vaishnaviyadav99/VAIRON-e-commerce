@@ -1,0 +1,90 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> VAIRON</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <header class="header">
+            <a href="#" class="logo"><img src="images/VAIRON.jpeg" alt="VAIRON logo"></a>
+
+         <nav class="navbar">
+            <a href="index.html" class="active">HOME</a>
+            <a href="ladies.html">LADIES</a>
+            <a href="gens.html">GENS</a>
+            <a href="kids.html">KIDS</a>
+            <a href="beauty.html">BEAUTY</a>
+         </nav>
+
+
+        <div class="icons">
+            <i class="fa fa-bars" id="menu-btn"></i>
+            <i class="fa fa-search" id="search-btn"></i>
+            
+            <a href="cart.html" class="bag-link">
+            <i class="fa fa-shopping-bag" id="shopping-bag-btn"></i>
+            <span id="cart-count" class="cart-badge">0</span>
+            </a>
+            <a href="login.html"><i class="fa fa-user" id="user-btn"></i>
+            </a>
+        </div>
+
+        <form class="search-form">
+            <input type="search" id="search-box" placeholder="what are you looking for?">
+            <label for="search-box" class="fa fa-search"></label>
+        </form> 
+       </header>
+
+
+
+   <section class="product-page">
+      <div class="product-image">
+        <img id="main-product-img" src="images/newinfrock.jpg" alt="frock">
+      </div>
+
+      <div class="product-details">
+        <div class="details-top">
+               <h2 id="product-name"></h2>
+                <p id="product-price"></p>
+                <span class="mrp-note">MRP inclusive of all taxes</span>
+        </div>
+
+        <div class="size-section">
+            <h4>SELECT SIZE</h4>
+            <div class="size-grid">
+                <button class="size-btn">XL</button>
+                <button class="size-btn">L</button>
+                <button class="size-btn">M</button>
+                <button class="size-btn">S</button>
+                <button class="size-btn">XS</button>
+            </div>
+        </div>
+
+        <button id="add-to-bag">ADD TO BAG</button>
+
+        <div class="accordion">
+            <div class="accordion-item">
+                <button class="accordion-btn">DELIVERY AND PAYMENT<span>+</span></button>
+                <div class="accordion-content">
+                    <p id="product-desc"></p>
+                    <p> Standard delivery in 5-7 buisness days.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="similar-products">
+        <h3>YOU MAY ALSO LIKE...</h3>
+        <div class="similar-grid" id="similar-grid">
+    </div>
+   
+ </section>
+
+       <script src="script.js" ></script>
+    </body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> VAIRON- Your Bag</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       
+
+        
+        <header class="header">
+            <a href="index.html" class="logo"><img src="images/VAIRON.jpeg" alt="VAIRON logo"></a>
+
+         <nav class="navbar">
+            <a href="index.html" class="active">HOME</a>
+            <a href="ladies.html">LADIES</a>
+            <a href="gens.html">GENS</a>
+            <a href="kids.html">KIDS</a>
+            <a href="beauty.html">BEAUTY</a>
+         </nav>
+        <div class="icons">
+            <i class="fa fa-bars" id="menu-btn"></i>
+            <i class="fa fa-search" id="search-btn"></i>
+            
+            <!--add to cart num add agum la adhunaala-->
+            <a href="cart.html" class="bag-link">
+              <i class="fa fa-shopping-bag" id="shopping-bag-btn"></i>
+              <span id="cart-count" class="cart-badge">0</span>
+            </a>
+            
+        </div>
+       </header>
+
+       <section class="cart-page">
+        <h2>CHECKOUT</h2>
+
+
+        <div id="checkout-summary"></div>
+        <div id="checkout-total-section">
+            <h3>Total: <span id="checkout-total">RS. 0/-</span></h3>
+        </div>
+
+
+        <form id="checkout-form" class="checkout-form">
+            <label for="checkout-name">Full Name</label>
+            <input type="text" id="checkout-name" required>
+
+            <label for="checkout-adress">Delivery Address</label>
+            <input type="text" id="checkout-adress" required>
+
+            <label for="checkout-phone">Contact Number</label>
+            <input type="text" id="checkout-phone" required>
+
+            <!----------------payment method------------>
+
+       <div class="payment-section">
+                <h4>PAYMENT METHOD</h4>
+                <div class="payment-options">
+                <label class="payment-option">
+                    <input type="radio" name="payment" value="COD" checked>
+                    Cash on Delivery
+                </label>
+                <label class="payment-option">
+                    <input type="radio" name="payment" value="Card">
+                    Credit/Debit Card
+                </label>
+                <label class="payment-option">
+                    <input type="radio" name="payment" value="UPI">
+                    UPI
+                </label>
+            </div>
+          </div>
+            <button type="submit" id="place-order-btn"> PLACE ORDER</button>
+        </form>
+       </section>
+
+
+       <div id="order-confirmation" class="modal-overlay" style="display:none;">
+        <div class="modal-box">
+            <i class="fa fa-check-circle" id="confirm-icon"></i>
+            <h3>ORDER CONFIRMED</h3>
+            <p id="confirm-message"></p>
+            <button id="confirm-close-btn">CONTINUE SHOPPING</button>
+        </div>
+       </div>
+
+       <script src="script.js"></script>
+    </body>
+</html>

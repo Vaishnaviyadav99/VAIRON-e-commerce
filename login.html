@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> VAIRON</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       
+
+        
+        <header class="header">
+            <a href="#" class="logo"><img src="images/VAIRON.jpeg" alt="VAIRON logo"></a>
+
+         <nav class="navbar">
+            <a href="index.html" class="active">HOME</a>
+            <a href="ladies.html">LADIES</a>
+            <a href="gens.html">GENS</a>
+            <a href="kids.html">KIDS</a>
+            <a href="beauty.html">BEAUTY</a>
+         </nav>
+
+
+        <div class="icons">
+            <i class="fa fa-bars" id="menu-btn"></i>
+            <i class="fa fa-search" id="search-btn"></i>
+            
+            <!--add to cart num add agum la adhunaala-->
+            <a href="cart.html" class="bag-link">
+            <i class="fa fa-shopping-bag" id="shopping-bag-btn"></i>
+            <span id="cart-count" class="cart-badge">0</span>
+            </a>
+            <a href="login.html"><i class="fa fa-user" id="user-btn"></i>
+            </a>
+        </div>
+
+        <form class="search-form">
+            <input type="search" id="search-box" placeholder="what are you looking for?">
+            <label for="search-box" class="fa fa-search"></label>
+        </form> 
+       </header>
+
+       <section id="auth" class="section-1">
+        <p>LOGIN</p>
+        <form id="login-form" class="checkout-form">
+            <label>Email</label>
+            <input type="email" id="login-email" required>
+            <label>Password</label>
+            <input type="password" id="login-password" required>
+            <button type="submit">LOGIN</button>
+        </form>
+        <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+       </section>
+
+       <script src="script.js"></script>
+    </body>
+</html>
